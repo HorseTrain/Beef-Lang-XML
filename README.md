@@ -5,7 +5,7 @@ How to use.
 
 <-How to parse a file->
 
-To parse an xml file, you need to pass the xml source through a lexer, to get some tokens. This can easely be done bt calling
+To parse an xml file, you need to pass the xml source through a lexer, to get some tokens. This can easely be done by calling
 
 ```csharp
 
