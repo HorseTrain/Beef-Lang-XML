@@ -13,23 +13,23 @@ using XML;
 
 static void Main()
 {
-			String FileData = new String();
+	String FileData = new String();
 
-			File.ReadAllText(<XML path here>,FileData);
-      
-      var xml = new XMLFile();
-      
-      var tokens = XMLToken.ParseTokens(FileData);
-      
-      //You can access all the elements in this xml file by referencing "RootElements"
-      
-      //Dont forget to deallocate at end
-      delete tokens;
-      delete FileData;
-      delete xml;
-      
-      //Removes string junk
-      StringMethods.XMLEnd();
+	File.ReadAllText(<XML path here>,FileData);
+
+	var xml = new XMLFile();
+
+	var tokens = XMLToken.ParseTokens(FileData);
+
+	//You can access all the elements in this xml file by referencing "RootElements"
+
+	//Dont forget to deallocate at end
+	delete tokens;
+	delete FileData;
+	delete xml;
+
+	//Removes string junk
+	StringMethods.XMLEnd();
 }
 
 ```
